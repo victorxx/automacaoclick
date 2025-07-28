@@ -25,8 +25,8 @@ try:
         pyautogui.press('f5')
         print("Página atualizada. Aguardando 24 horas...")
 
-        # Esperar 24 horas (em segundos)
-        time.sleep(86400)
+        # Esperar 12 horas (em segundos)
+        time.sleep(43200)
 
 except Exception as e:
     print(f"Ocorreu um erro: {e}")
